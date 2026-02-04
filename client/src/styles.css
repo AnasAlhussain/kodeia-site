@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  @apply bg-kodeia-ink text-white;
+}
+
+::selection {
+  background: rgba(73, 181, 255, 0.35);
+}
+/* .touch-pan-y {
+  touch-action: pan-y;
+} */
+.translate-z-0 {
+  transform: translateZ(0);
+}
+.shadow-soft {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
