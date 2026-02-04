@@ -13,9 +13,9 @@ export default function Home() {
         <title>KODEIA – Konsult & Utbildning</title>
         <meta
           name="description"
-          content="KODEIA är ett konsultföretag inom webb och digital utveckling – vi utbildar också i YH-skolor och hjälper verksamheter med kvalitet & förbättring."
+          content="KODEIA är ett konsultföretag inom webb och digital utveckling vi utbildar också i YH-skolor och hjälper verksamheter med kvalitet & förbättring."
         />
-        <link rel="canonical" href="/" />
+        <link rel="canonical" href="https://kodeia.se" />
       </Helmet>
 
       <section className="relative overflow-hidden rounded-2xl border border-white/10 bg-gradient-to-b from-white/10 to-white/5 p-7 shadow-soft sm:p-10">

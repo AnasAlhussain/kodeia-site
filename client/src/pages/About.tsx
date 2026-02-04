@@ -10,7 +10,7 @@ export default function About() {
           name="description"
           content="Lär känna KODEIA: vi är ett digitalt företag som älskar att utbilda. Vi hjälper verksamheter med webb och stöttar YH-skolor med utveckling och kvalitet."
         />
-        <link rel="canonical" href="/om-oss" />
+        <link rel="canonical" href="https://kodeia.se/om-oss" />
       </Helmet>
 
       <div className="max-w-4xl">

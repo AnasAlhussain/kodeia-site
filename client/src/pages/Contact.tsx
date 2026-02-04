@@ -74,7 +74,7 @@ export default function Contact() {
           name="description"
           content="Kontakta KODEIA för webbkonsulting, utbildningar i YH-skolor eller stöd i kvalitetssäkring. Skicka ett meddelande via formuläret."
         />
-        <link rel="canonical" href="/kontakt" />
+        <link rel="canonical" href="https://kodeia.se/kontakt" />
       </Helmet>
 
       <div className="max-w-3xl">

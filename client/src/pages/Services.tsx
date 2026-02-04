@@ -11,7 +11,7 @@ export default function Services() {
           name="description"
           content="KODEIA erbjuder webbkonsulting, utbildningar i YH-skolor och stöd för YH/arbetsmarknadsutbildningar för utveckling och kvalitetssäkring."
         />
-        <link rel="canonical" href="/tjanster" />
+        <link rel="canonical" href="https://kodeia.se/tjanster" />
       </Helmet>
 
       <div className="max-w-4xl">
