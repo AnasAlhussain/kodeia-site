@@ -36,7 +36,7 @@ export default function Home() {
             transition={{ duration: 0.65, delay: 0.05 }}
             className="mt-5 text-3xl font-extrabold tracking-tight text-white sm:text-5xl"
           >
-            {"{ KODEIA }"}  digital kraft för{" "}
+            {"{ KODEIA }"} digital kraft för{" "}
             <span className="bg-gradient-to-r from-kodeia-sky via-white to-kodeia-blue bg-clip-text text-transparent">
               verksamheter
             </span>{" "}
@@ -50,11 +50,11 @@ export default function Home() {
           </motion.h1>
 
           <p className="mt-4 text-base leading-relaxed text-white/75 sm:text-lg">
-  KODEIA är ett digitalt konsultföretag som hjälper verksamheter med webb,
-  utveckling och kvalitetssäkring. Vi erbjuder även utbildningar och stöd
-  till yrkeshögskolor och arbetsmarknadsutbildningar i hela Sverige.
-</p>
-
+            KODEIA är ett digitalt konsultföretag som hjälper verksamheter med
+            webb, utveckling och kvalitetssäkring. Vi erbjuder även utbildningar
+            och stöd till yrkeshögskolor och arbetsmarknadsutbildningar i hela
+            Sverige.
+          </p>
 
           <div className="mt-7 flex flex-col gap-3 sm:flex-row">
             <Button to="/kontakt">Kontakta oss</Button>
@@ -65,7 +65,9 @@ export default function Home() {
 
           <div className="mt-9 grid grid-cols-1 gap-4 sm:grid-cols-3">
             <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
-              <div className="text-xs text-white/60">Antal timmar vi lärt ut</div>
+              <div className="text-xs text-white/60">
+                Antal timmar vi lärt ut
+              </div>
               <div className="mt-1 text-2xl font-extrabold">
                 <CountUp to={2400} suffix="+" />
               </div>
@@ -93,37 +95,46 @@ export default function Home() {
         <div>
           <h2 className="text-2xl font-bold text-white">Teamet</h2>
           <p className="mt-2 text-white/70">
-            Vi kombinerar modern utveckling med pedagogik och kvalitetssäkring. Här är några av oss.
+            Vi kombinerar modern utveckling med pedagogik och kvalitetssäkring.
+            Här är några av oss.
           </p>
           <div
-  className="relative w-full"
-  style={{ touchAction: "pan-y" }}  // tillåt vertikal scroll
->
-  <TeamCarousel />
-</div>
+            className="relative w-full"
+            style={{ touchAction: "pan-y" }} // tillåt vertikal scroll
+          >
+            <TeamCarousel />
+          </div>
         </div>
 
         <div>
           <h2 className="text-2xl font-bold text-white">Det som vi kan : </h2>
-          
 
           <div className="mt-6 grid gap-4">
             <Card title="Webb & digital utveckling">
-              Från nya webbplatser till förbättring av befintliga system. Fokus på prestanda, tillgänglighet och konvertering.
+              Från nya webbplatser till förbättring av befintliga system. Fokus
+              på prestanda, tillgänglighet och konvertering.
               <div className="mt-4">
-                <Button to="/tjanster/webb" variant="ghost">Läs mer</Button>
+                <Button to="https://kodeia.se/tjanster/webb" variant="ghost">
+                  Läs mer
+                </Button>
               </div>
             </Card>
             <Card title="Utbildningar i YH-skolor">
-              Föreläsningar och kursupplägg inom webb, frontend och moderna arbetssätt praktiskt, tydligt och relevant.
+              Föreläsningar och kursupplägg inom webb, frontend och moderna
+              arbetssätt praktiskt, tydligt och relevant.
               <div className="mt-4">
-                <Button to="/tjanster/utbildningar" variant="ghost">Läs mer</Button>
+                <Button to="https://kodeia.se/tjanster/utbildningar" variant="ghost">
+                  Läs mer
+                </Button>
               </div>
             </Card>
             <Card title="Stöd för YH & arbetsmarknadsutbildningar">
-              Utveckla och kvalitetssäkra er verksamhet: processer, dokumentation, uppföljning och förbättringsarbete.
+              Utveckla och kvalitetssäkra er verksamhet: processer,
+              dokumentation, uppföljning och förbättringsarbete.
               <div className="mt-4">
-                <Button to="/tjanster/yh-stod" variant="ghost">Läs mer</Button>
+                <Button to="https://kodeia.se/tjanster/yh-stod" variant="ghost">
+                  Läs mer
+                </Button>
               </div>
             </Card>
           </div>
