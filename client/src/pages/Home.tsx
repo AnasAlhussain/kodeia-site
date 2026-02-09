@@ -50,8 +50,11 @@ export default function Home() {
           </motion.h1>
 
           <p className="mt-4 text-base leading-relaxed text-white/75 sm:text-lg">
-            Vi hjälper verksamheter att hitta smarta lösningar inom webb och digital utveckling och vi gör utbildningar bättre genom stöd till yrkeshögskolor och arbetsmarknadsutbildningar.
-          </p>
+  KODEIA är ett digitalt konsultföretag som hjälper verksamheter med webb,
+  utveckling och kvalitetssäkring. Vi erbjuder även utbildningar och stöd
+  till yrkeshögskolor och arbetsmarknadsutbildningar i hela Sverige.
+</p>
+
 
           <div className="mt-7 flex flex-col gap-3 sm:flex-row">
             <Button to="/kontakt">Kontakta oss</Button>
