@@ -26,7 +26,7 @@ export default function Services() {
               <li>Teknisk rådgivning och implementation</li>
             </ul>
             <div className="mt-4">
-              <Button to="/tjanster/webb" variant="ghost">Läs mer</Button>
+              <Button to="https://kodeia.se/tjanster/webb" variant="ghost">Läs mer</Button>
             </div>
           </Card>
 
@@ -37,7 +37,7 @@ export default function Services() {
               <li>Material, uppgifter och bedömningsstöd</li>
             </ul>
             <div className="mt-4">
-              <Button to="/tjanster/utbildningar" variant="ghost">Läs mer</Button>
+              <Button to="https://kodeia.se/tjanster/utbildningar" variant="ghost">Läs mer</Button>
             </div>
           </Card>
 
@@ -48,7 +48,7 @@ export default function Services() {
               <li>Stöd i utveckling av verksamhet och leverans</li>
             </ul>
             <div className="mt-4">
-              <Button to="/tjanster/yh-stod" variant="ghost">Läs mer</Button>
+              <Button to="https://kodeia.se/tjanster/yh-stod" variant="ghost">Läs mer</Button>
             </div>
           </Card>
         </div>
