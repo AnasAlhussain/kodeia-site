@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://example.com/</loc></url>
-  <url><loc>https://example.com/om-oss</loc></url>
-  <url><loc>https://example.com/kontakt</loc></url>
-  <url><loc>https://example.com/tack</loc></url>
-  <url><loc>https://example.com/tjanster</loc></url>
-  <url><loc>https://example.com/tjanster/webb</loc></url>
-  <url><loc>https://example.com/tjanster/utbildningar</loc></url>
-  <url><loc>https://example.com/tjanster/yh-stod</loc></url>
+  <url>
+    <loc>https://kodeia.se/</loc>
+  </url>
+  <url>
+    <loc>https://kodeia.se/om-oss</loc>
+  </url>
+  <url>
+    <loc>https://kodeia.se/tjanster</loc>
+  </url>
+  <url>
+    <loc>https://kodeia.se/tjanster/webb</loc>
+  </url>
+  <url>
+    <loc>https://kodeia.se/tjanster/utbildningar</loc>
+  </url>
+  <url>
+    <loc>https://kodeia.se/tjanster/yh-stod</loc>
+  </url>
 </urlset>
