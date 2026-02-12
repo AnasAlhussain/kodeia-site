@@ -18,11 +18,11 @@ export default function Header() {
 <header className="sticky top-0 z-40 border-b border-white/10 bg-kodeia-ink/90 md:bg-kodeia-ink/70 md:backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
         <Link to="/" className="flex items-center gap-3">
-          <img src="/kodeia-logo.png" alt="KODEIA logo" className="h-9 w-auto" />
+          <img src="/White Logo.png" alt="KODEIA logo" className="h-9 w-auto" />
           <div className="leading-tight">
-            <div className="text-sm font-semibold tracking-widest text-white">
+            {/* <div className="text-sm font-semibold tracking-widest text-white">
               {"{ KODEIA }"}
-            </div>
+            </div> */}
             <div className="text-xs text-white/70">Konsult & utbildning</div>
           </div>
         </Link>
