@@ -114,8 +114,8 @@ export default function Home() {
               Från nya webbplatser till förbättring av befintliga system. Fokus
               på prestanda, tillgänglighet och konvertering.
               <div className="mt-4">
-                <Button to="https://kodeia.se/tjanster/webb" variant="ghost">
-                  Läs mer
+                <Button to="/tjanster/webb" variant="ghost">
+                  Läs mer om webb & digital utveckling
                 </Button>
               </div>
             </Card>
@@ -123,8 +123,8 @@ export default function Home() {
               Föreläsningar och kursupplägg inom webb, frontend och moderna
               arbetssätt praktiskt, tydligt och relevant.
               <div className="mt-4">
-                <Button to="https://kodeia.se/tjanster/utbildningar" variant="ghost">
-                  Läs mer
+                <Button to="/tjanster/utbildningar" variant="ghost">
+                  Läs mer om utbildningar i YH-skolor
                 </Button>
               </div>
             </Card>
@@ -132,8 +132,8 @@ export default function Home() {
               Utveckla och kvalitetssäkra er verksamhet: processer,
               dokumentation, uppföljning och förbättringsarbete.
               <div className="mt-4">
-                <Button to="https://kodeia.se/tjanster/yh-stod" variant="ghost">
-                  Läs mer
+                <Button to="/tjanster/yh-stod" variant="ghost">
+                  Läs mer om stöd för YH & arbetsmarknadsutbildningar
                 </Button>
               </div>
             </Card>
